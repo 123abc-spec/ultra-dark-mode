@@ -1,1 +1,10 @@
-{"manifest_version": 3, "name": "Ultra Dark Mode - Too Dark", "version": "1.0", "description": "Makes everything almost black. Dark mode taken way too literally.", "permissions": ["scripting", "activeTab"], "action": {"default_popup": "popup.html", "default_title": "Ultra Dark Mode"}, "content_scripts": [{"matches": ["<all_urls>"], "js": ["content.js"], "run_at": "document_start", "all_frames": true}]}
+{
+  "manifest_version": 2,
+  "name": "Ultra Dark Mode",
+  "description": "A dark theme for better viewing experience.",
+  "version": "1.0",
+  "permissions": [
+    "storage",
+    "tabs"
+  ]
+}
